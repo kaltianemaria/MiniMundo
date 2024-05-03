@@ -1,0 +1,24 @@
+﻿@model MiniMundo.Models.Venda
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar Venda</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Deletar Venda</h2>
+        <p>Você tem certeza que deseja deletar a venda com ID <strong>@Model.VendaId</strong>?</p>
+        <form asp-action="Deletar" method="post">
+            <input type="hidden" asp-for="VendaId" />
+            <button type="submit" class="btn btn-danger">Sim, Deletar</button>
+            <a href="@Url.Action("ListarVendas", "Venda")" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiniMundo
+build_property.RootNamespace = MiniMundo
+build_property.ProjectDir = C:\Users\k.silva.montenegro\Desktop\MiniMundo\MiniMundo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\k.silva.montenegro\Desktop\MiniMundo\MiniMundo
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Cliente/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Cliente/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Cliente/ListarClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxMaXN0YXJDbGllbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Cliente/Salvar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxTYWx2YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Funcionario/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9cRGVsZXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Funcionario/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9cRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Funcionario/ListarFuncionarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9cTGlzdGFyRnVuY2lvbmFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Funcionario/Salvar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9cU2FsdmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Produto/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Produto/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Produto/ListarProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xMaXN0YXJQcm9kdXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Produto/Salvar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xTYWx2YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Venda/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFcRGVsZXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Venda/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Venda/ListarVendas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFcTGlzdGFyVmVuZGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Venda/Salvar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFcU2FsdmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/k.silva.montenegro/Desktop/MiniMundo/MiniMundo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-y5lqyculb3

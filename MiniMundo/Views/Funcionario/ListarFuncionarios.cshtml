@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MiniMundo.Models.Funcionario>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar Usuários</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Lista de Funcionários</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var funcionario in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => funcionario.TipoCadastro)</td>
+                        <td>@Html.DisplayFor(modelItem => funcionario.Nome)</td>
+                        <td>@Html.DisplayFor(modelItem => funcionario.Matricula)</td>
+                        <td>@Html.DisplayFor(modelItem => funcionario.Email)</td>
+                        <td>
+                            <a asp-action="Editar" asp-route-id="@funcionario.Id">Edit</a> ||
+                            <a asp-action="Deletar" asp-route-id="@funcionario.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

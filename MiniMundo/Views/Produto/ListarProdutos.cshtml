@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MiniMundo.Models.Produto>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produtos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Lista de Produtos</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nome do Produto</th>
+                    <th>Preço</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var produto in Model)
+                {
+                    <tr>
+                        <td>@produto.NomeDoProduto</td>
+                        <td>@produto.Preco</td>
+                        <td>
+                            <a href="@Url.Action("Editar", "Produto", new { id = produto.ProdutoId })">Editar</a> |
+                            <a href="@Url.Action("Deletar", "Produto", new { id = produto.ProdutoId })">Deletar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

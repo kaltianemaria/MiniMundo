@@ -1,0 +1,41 @@
+﻿@model MiniMundo.Models.Venda
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Venda</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Criar Venda</h2>
+        <form asp-action="Salvar">
+            <div class="form-group">
+                <label for="ProdutoId">ID do Produto:</label>
+                <input type="number" class="form-control" id="ProdutoId" name="ProdutoId" required>
+            </div>
+            <div class="form-group">
+                <label for="ClienteId">ID do Cliente:</label>
+                <input type="number" class="form-control" id="ClienteId" name="ClienteId" required>
+            </div>
+            <div class="form-group">
+                <label for="NomeDoFuncionario">Nome do Funcionário:</label>
+                <input type="text" class="form-control" id="NomeDoFuncionario" name="NomeDoFuncionario" required>
+            </div>
+            <div class="form-group">
+                <label for="Preco">Preço:</label>
+                <input type="text" class="form-control" id="Preco" name="Preco" required>
+            </div>
+            <div class="form-group">
+                <label for="DataDaVenda">Data da Venda:</label>
+                <input type="date" class="form-control" id="DataDaVenda" name="DataDaVenda" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+    </div>
+
+</body>
+</html>

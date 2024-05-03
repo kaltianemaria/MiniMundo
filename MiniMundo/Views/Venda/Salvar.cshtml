@@ -1,0 +1,29 @@
+﻿@model MiniMundo.Models.Produto
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Produto</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Criar Produto</h2>
+        <form asp-action="Salvar">
+            <div class="form-group">
+                <label for="NomeDoProduto">Nome do Produto:</label>
+                <input type="text" class="form-control" id="NomeDoProduto" name="NomeDoProduto" required>
+            </div>
+            <div class="form-group">
+                <label for="Preco">Preço:</label>
+                <input type="number" class="form-control" id="Preco" name="Preco" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+    </div>
+
+</body>
+</html>
